@@ -5,15 +5,25 @@ body {
     margin: auto;
     padding: 15px;
     margin-top: 3%;
-    text-align: center;
     background-color: #F1F1DE ;
-    border: solid #33401E 4px;
+    border: solid #33401E 0px;
     border-radius: 7px;
     width: 50%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    font-family: "Inter", sans-serif;
+    padding-bottom: 5%;
 }
 .Main h1 {
     color: #33401E;
     font-size: 45px;
+    padding-bottom: 5%;
+    text-align: center;
+}
+h2 {
+    color: #33401E;
+    text-align: left;
+    padding-left: 5%;
+
 }
 p {
     color: #67533A;
@@ -21,12 +31,24 @@ p {
     line-height: 1.6;
     padding: 0 5%;
     position: relative;
+    width: 80%;      
+    max-width: 90%;  
+    margin: 0 auto;  
+    margin-right: 20%;
+    text-align: left;
 }
 img {
-    margin-top: 15px;
-    border: solid #67533A 2.5px;
+    margin-top: 0;
     border-radius: 7px;
     position: relative;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 250px;         
+    height: 320px;        
+    object-fit: cover;   
+    display: block;
+    margin-left: auto;    
+    margin-right: auto; 
+    margin-bottom: 15%;
 }
 .div1 {
     margin-top: 15px;
@@ -35,15 +57,6 @@ img {
     justify-content: center;
     gap: 0.5%;
 }
-#img1 {
-   margin-left: 18%;
-}
-#img2 {
-   margin-right: 11%;
-}
-#p1 {
-    margin-right: 11%;
-}
 footer{
     margin-top: 20%;
     text-align: center;
@@ -51,4 +64,24 @@ footer{
 footer p{
     color: gray;
     opacity: 50%;
+    text-align: center;
+}
+hr {
+    border: none;
+    height: 2px;
+    width: 90%;
+    margin: 40px auto;
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0 0%,
+        #33401E 0% 30%,
+        transparent 30% 36%,
+        #33401E 36% 66%,
+        transparent 66% 72%,
+        #33401E 72% 100%,
+        transparent 100% 100%
+        );
+        background-size: 100% 2px;
+    background-repeat: repeat-x;
+    background-position: center;
 }
