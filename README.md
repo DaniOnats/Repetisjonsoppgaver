@@ -1,7 +1,7 @@
 # Repetisjonsoppgaver
 Repetisjonsuke – vg2 informasjonsteknologi
 
-## Nettstedsanylyse: Breivang vgs
+## Nettstedsanalyse: Breivang vgs
 ### Universell utforming
 Nettstedet til Breivang videregående skole er ganske godt tilpasset universell utforming. Nettstedet har en intuitiv struktur med oversiktlige menyer og logisk innholdsinndeling. Viktige seksjoner som «Utdnningstilbud», «For elever», «Om oss» og «Kontakt oss» lett tilgjengelig fra hovedmenyen. Teksten står også i god kontrast til bakgrunnen og er lett å lese. Søkefunksjonen er synlig og enkel å bruke, slik at brukerne raskt kan finne informasjon. Innholdet er delt inn i emner, noe som er praktisk å bruke og intuitivt å navigere i. 
 
